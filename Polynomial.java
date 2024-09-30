@@ -218,7 +218,6 @@ class Polynomial {
             }
         }
 
-        // Write the polynomial string to the file
         FileWriter writer = new FileWriter(fileName);
         writer.write(polystr.toString());
         writer.close();
